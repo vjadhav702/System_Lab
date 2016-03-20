@@ -1,0 +1,11 @@
+*	*	27	*	*	dir | more
+*	*	27	*	*	ls | more
+*	*	27	*	*	ls | grep "#" -c
+*	*	27	*	*	ls | grep "#include" -c
+*	*	27	*	*	grep "#" Que1.c -c
+*	*	27	*	*	grep "#include" Que1.c -c
+*	*	27	*	*	ls
+*	*	27	*	*	dir
+*	*	27	*	*	mkdir test
+*	*	27	*	*	grep "#include" Que1.c -c
+*	*	27	*	*	grep "main" Que1.c -c
