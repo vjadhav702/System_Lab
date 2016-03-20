@@ -1,0 +1,80 @@
+Question 1: (10Marks) 
+A. A tab separated text file of numbers, in the following format is given to you. Using shell 
+scripts you want to convert the number from a given base to another base and the store 
+the results in another text file. Write a shell script to perform the same operation. 
+ 
+Input_number   Base_of_Input   Base_of_conversion  
+10  16  10 
+16  10  16 
+8  8  16 
+etc 
+ 
+ 
+ 
+B. Using ​C , implement the commands you have used in the shell script.  
+
+
+
+==============================================================================================================================
+Question 2:
+
+System administration is a difficult task to manage. Your objective for this assignment is 
+using shell scripts only, design an interface which can help a system administer to ease 
+his work.  The following functionalities need to be implemented. 
+1. The interface needs to be interactive. Each screen provides the user to select 
+some options. 
+2. Screen 1:​
+ Upon entering to your system this should ask for a default username 
+and password. Password needs to masked. 
+3. Screen 2: ​
+The first screen should provide the online user details and asks for a 
+user select. 
+4. Screen 3: ​
+Upon selecting the user in the first screen, the second screen should 
+provide the number of active processes run by that selected user. Each process 
+ID must contain the cpu utilization, memory used and start time. This screen also 
+contains the options to rerun the program or to exit from the utility. Following 
+figure contains the sample screen details. 
+ 
+Screen 1: 
+User Name: Alex 
+Password: ****** 
+ 
+_____________________________________________________________________________ 
+Screen 2: 
+1.
+User1 
+2.
+User2 
+3.
+User3 
+Select User­> User3  
+_____________________________________________________________________________ 
+Screen 3: 
+           User3 Details 
+  PID %CPU  %MEM     TIME+  COMMAND 
+ 
+ 1902 30.6  23.1   22:36.10 hud­service 
+ 2091 12.6  1.0    17:19.44 nautilus 
+27602 7.6   5.4    0:35.53  chromium­browse 
+ 2162 5.7   2.4    6:18.16  CopyAgent 
+Press q to quit, <Enter> to re­run ... 
+
+
+
+=====================================================================================================================
+
+Question 3: (40Marks) 
+
+A. pipe ​
+system calls are used to help inter­process communication and I/O redirection in 
+linux systems. Using standard shell scripting and pipes find out a shell command which 
+can count the files for which filenames start with “A” and end with “.txt” 
+ 
+B. Implement all the commands used in part ​A using C. ​
+
+Please note, all the commands 
+should follow standard syntaxes and the command must be able to work individually. In 
+order to do so, you must write a parser which parses the command and makes 
+appropriate command calls. Utilization of pipe system call needs to be considered 
+necessary for the inter­process communication. 
